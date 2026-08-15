@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="トロフィーのイラスト">
+  <circle cx="100" cy="100" r="96" fill="#2b0f5c" />
+  <path d="M60 34h80v34c0 26-18 44-40 44S60 94 60 68z" fill="#ffd447" />
+  <path d="M60 44H42c0 24 8 36 24 40" stroke="#ffd447" stroke-width="10" fill="none" stroke-linecap="round" />
+  <path d="M140 44h18c0 24-8 36-24 40" stroke="#ffd447" stroke-width="10" fill="none" stroke-linecap="round" />
+  <rect x="88" y="112" width="24" height="26" fill="#ffb020" />
+  <rect x="62" y="138" width="76" height="16" rx="6" fill="#ffd447" />
+  <rect x="52" y="154" width="96" height="18" rx="8" fill="#ffb020" />
+  <text x="100" y="82" text-anchor="middle" font-size="34" font-weight="800" fill="#7a4b00" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif">1</text>
+</svg>

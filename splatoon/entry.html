@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>申込フォーム | INK BATTLE 2026</title>
+<meta name="description" content="INK BATTLE 2026（高校生スプラトゥーン大会）の申込フォーム。名前・年齢・メールアドレス・電話番号を入力してください。" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="entry-page">
+<header class="entry-header">
+  <div class="container">
+    <p class="eyebrow">INK BATTLE 2026</p>
+    <h1>申込フォーム</h1>
+    <p class="tagline">先着100名まで／申込は2026年9月末まで</p>
+  </div>
+</header>
+
+<main class="container">
+  <form class="entry-form" id="entry-form" novalidate>
+    <div class="field">
+      <label for="name">名前<span class="required">必須</span></label>
+      <input type="text" id="name" name="name" autocomplete="name" placeholder="イカ 太郎" required />
+    </div>
+
+    <div class="field">
+      <label for="age">年齢<span class="required">必須</span></label>
+      <input type="number" id="age" name="age" min="1" max="120" inputmode="numeric" placeholder="16" required />
+    </div>
+
+    <div class="field">
+      <label for="email">メールアドレス<span class="required">必須</span></label>
+      <input type="email" id="email" name="email" autocomplete="email" placeholder="example@mail.com" required />
+    </div>
+
+    <div class="field">
+      <label for="tel">電話番号<span class="required">必須</span></label>
+      <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="090-1234-5678" required />
+    </div>
+
+    <div class="form-actions">
+      <a class="btn" href="index.html">告知ページに戻る</a>
+      <button class="btn primary" type="submit">確認</button>
+    </div>
+  </form>
+
+  <section class="confirm" id="confirm" hidden>
+    <h2>入力内容の確認</h2>
+    <dl class="confirm-list">
+      <div><dt>名前</dt><dd id="confirm-name"></dd></div>
+      <div><dt>年齢</dt><dd id="confirm-age"></dd></div>
+      <div><dt>メールアドレス</dt><dd id="confirm-email"></dd></div>
+      <div><dt>電話番号</dt><dd id="confirm-tel"></dd></div>
+    </dl>
+    <div class="form-actions">
+      <button class="btn" type="button" id="back-to-form">修正する</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>INK BATTLE 2026 実行委員会</p>
+  </div>
+</footer>
+
+<script src="entry.js"></script>
+</body>
+</html>

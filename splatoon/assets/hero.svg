@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="インクが飛び散るバトルフィールドのイラスト">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b0b3a" />
+      <stop offset="55%" stop-color="#2b0f5c" />
+      <stop offset="100%" stop-color="#0d0620" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg)" />
+  <rect width="800" height="450" fill="url(#glow)" />
+
+  <g opacity="0.95">
+    <path fill="#00e5a0" d="M120 330c-40 12-70-14-62-46 7-27 42-33 55-58 12-24 4-52 26-64 26-14 52 10 80 6 27-4 46-30 72-22 25 7 27 40 47 56 19 15 50 12 58 35 8 24-19 42-24 66-5 25 10 55-10 69-22 15-49-11-76-9-30 2-56 30-85 22-25-7-25-42-45-56-16-11-21 1-36 1z" transform="translate(-30 40) scale(0.55)" />
+    <path fill="#ff3f8e" d="M120 330c-40 12-70-14-62-46 7-27 42-33 55-58 12-24 4-52 26-64 26-14 52 10 80 6 27-4 46-30 72-22 25 7 27 40 47 56 19 15 50 12 58 35 8 24-19 42-24 66-5 25 10 55-10 69-22 15-49-11-76-9-30 2-56 30-85 22-25-7-25-42-45-56-16-11-21 1-36 1z" transform="translate(430 -20) scale(0.75)" />
+    <circle cx="205" cy="120" r="16" fill="#00e5a0" />
+    <circle cx="250" cy="88" r="9" fill="#00e5a0" />
+    <circle cx="640" cy="360" r="20" fill="#ff3f8e" />
+    <circle cx="700" cy="392" r="11" fill="#ff3f8e" />
+  </g>
+
+  <g transform="translate(300 130)">
+    <path fill="#ffffff" d="M100 0c46 0 82 32 82 76 0 26-13 44-13 62 0 14 12 22 12 34 0 10-9 18-22 18-16 0-25-12-33-12s-13 14-26 14-18-14-26-14-17 12-33 12c-13 0-22-8-22-18 0-12 12-20 12-34 0-18-13-36-13-62C18 32 54 0 100 0z" opacity="0.95" />
+    <circle cx="72" cy="70" r="12" fill="#141026" />
+    <circle cx="128" cy="70" r="12" fill="#141026" />
+    <path d="M78 104c14 10 30 10 44 0" stroke="#141026" stroke-width="7" stroke-linecap="round" fill="none" />
+  </g>
+
+  <g font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" text-anchor="middle">
+    <text x="400" y="392" font-size="54" font-weight="800" fill="#ffffff">INK BATTLE</text>
+    <text x="400" y="428" font-size="24" font-weight="700" fill="#00e5a0">高校生スプラトゥーン大会</text>
+  </g>
+</svg>
